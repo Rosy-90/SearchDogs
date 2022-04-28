@@ -7,6 +7,11 @@
 
 import UIKit
 
+protocol PetsViewControllerProtocol: class {
+    func updateUI()
+    func showError()
+}
+
 class PetsViewController: UIViewController, Storyboarded {
     
     weak var coordinator: Coordinator? //Coordinator

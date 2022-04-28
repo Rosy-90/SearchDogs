@@ -25,6 +25,8 @@
 		8B4565AB281AD34F00E5BB8B /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4565AA281AD34F00E5BB8B /* NetworkClient.swift */; };
 		8B4565AE281AD4AC00E5BB8B /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4565AD281AD4AC00E5BB8B /* NetworkError.swift */; };
 		8B4565B0281AD61800E5BB8B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4565AF281AD61800E5BB8B /* Constants.swift */; };
+		8B4565B3281ADEC800E5BB8B /* PetsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4565B2281ADEC800E5BB8B /* PetsViewModel.swift */; };
+		8B4565B5281AF1CC00E5BB8B /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4565B4281AF1CC00E5BB8B /* EndPoints.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		8B4565AA281AD34F00E5BB8B /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		8B4565AD281AD4AC00E5BB8B /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		8B4565AF281AD61800E5BB8B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8B4565B2281ADEC800E5BB8B /* PetsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsViewModel.swift; sourceTree = "<group>"; };
+		8B4565B4281AF1CC00E5BB8B /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +123,7 @@
 			children = (
 				8B4565A2281AD10100E5BB8B /* Model */,
 				8B456598281AAD3700E5BB8B /* View */,
+				8B4565B1281ADEA500E5BB8B /* ViewModel */,
 				8B45659F281AC09A00E5BB8B /* Coordinator */,
 				8B45659C281ABEA200E5BB8B /* Extensions */,
 				8B4565A5281AD18D00E5BB8B /* Service */,
@@ -197,6 +202,7 @@
 			children = (
 				8B4565A6281AD1B200E5BB8B /* Service.swift */,
 				8B4565AA281AD34F00E5BB8B /* NetworkClient.swift */,
+				8B4565B4281AF1CC00E5BB8B /* EndPoints.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -208,6 +214,14 @@
 				8B4565AF281AD61800E5BB8B /* Constants.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		8B4565B1281ADEA500E5BB8B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8B4565B2281ADEC800E5BB8B /* PetsViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -343,6 +357,7 @@
 			files = (
 				8B4565A9281AD24100E5BB8B /* JsonDecodable.swift in Sources */,
 				8B4565AB281AD34F00E5BB8B /* NetworkClient.swift in Sources */,
+				8B4565B3281ADEC800E5BB8B /* PetsViewModel.swift in Sources */,
 				8B4565A4281AD11A00E5BB8B /* PetInfo.swift in Sources */,
 				8B4565A7281AD1B200E5BB8B /* Service.swift in Sources */,
 				8B45656D281AACE700E5BB8B /* PetsViewController.swift in Sources */,
@@ -350,6 +365,7 @@
 				8B45659E281ABEEE00E5BB8B /* Storyboarded.swift in Sources */,
 				8B456569281AACE700E5BB8B /* AppDelegate.swift in Sources */,
 				8B45656B281AACE700E5BB8B /* SceneDelegate.swift in Sources */,
+				8B4565B5281AF1CC00E5BB8B /* EndPoints.swift in Sources */,
 				8B4565AE281AD4AC00E5BB8B /* NetworkError.swift in Sources */,
 				8B45659B281AB38D00E5BB8B /* PetDetailsViewController.swift in Sources */,
 				8B4565B0281AD61800E5BB8B /* Constants.swift in Sources */,
