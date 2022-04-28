@@ -27,6 +27,7 @@
 		8B4565B0281AD61800E5BB8B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4565AF281AD61800E5BB8B /* Constants.swift */; };
 		8B4565B3281ADEC800E5BB8B /* PetsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4565B2281ADEC800E5BB8B /* PetsViewModel.swift */; };
 		8B4565B5281AF1CC00E5BB8B /* EndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4565B4281AF1CC00E5BB8B /* EndPoints.swift */; };
+		8B4565B7281B015000E5BB8B /* PetsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4565B6281B015000E5BB8B /* PetsViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		8B4565AF281AD61800E5BB8B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		8B4565B2281ADEC800E5BB8B /* PetsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsViewModel.swift; sourceTree = "<group>"; };
 		8B4565B4281AF1CC00E5BB8B /* EndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoints.swift; sourceTree = "<group>"; };
+		8B4565B6281B015000E5BB8B /* PetsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 				8B456599281AAD4000E5BB8B /* StoryBoard */,
 				8B45656C281AACE700E5BB8B /* PetsViewController.swift */,
 				8B45659A281AB38D00E5BB8B /* PetDetailsViewController.swift */,
+				8B4565B6281B015000E5BB8B /* PetsViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -367,6 +370,7 @@
 				8B45656B281AACE700E5BB8B /* SceneDelegate.swift in Sources */,
 				8B4565B5281AF1CC00E5BB8B /* EndPoints.swift in Sources */,
 				8B4565AE281AD4AC00E5BB8B /* NetworkError.swift in Sources */,
+				8B4565B7281B015000E5BB8B /* PetsViewCell.swift in Sources */,
 				8B45659B281AB38D00E5BB8B /* PetDetailsViewController.swift in Sources */,
 				8B4565B0281AD61800E5BB8B /* Constants.swift in Sources */,
 			);

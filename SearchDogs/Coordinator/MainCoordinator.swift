@@ -28,6 +28,7 @@ class MainCoordinator: Coordinator {
     func start() {
         let vc = PetsViewController.instantiate()
         vc.coordinator = self
+        vc.viewModel = PetsViewModel(delegate: vc)
         navigationController.pushViewController(vc, animated: false)
     }
     
