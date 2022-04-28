@@ -7,7 +7,9 @@
 
 import UIKit
 
-class PetsViewController: UIViewController {
+class PetsViewController: UIViewController, Storyboarded {
+    
+    weak var coordinator: Coordinator? //Coordinator
 
     override func viewDidLoad() {
         super.viewDidLoad()

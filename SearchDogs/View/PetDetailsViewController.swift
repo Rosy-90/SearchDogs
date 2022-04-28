@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
-class PetDetailsViewController: UIViewController {
+class PetDetailsViewController: UIViewController, Storyboarded {
     
+    weak var coordinator: Coordinator? //Coordinator
 }
