@@ -35,6 +35,7 @@ class MainCoordinator: Coordinator {
     func goToPetDetails(petDetails: (breadName: String, height: String, weight: String, lifeSpan: String, temperament: String)) {
         let vc = PetDetailsViewController.instantiate()
         vc.coordinator = self
+        vc.viewModel = PetDetailsViewModel(petDetails: petDetails)
         navigationController.pushViewController(vc, animated: false)
     }
 }
