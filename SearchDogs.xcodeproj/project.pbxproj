@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		8B456569281AACE700E5BB8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B456568281AACE700E5BB8B /* AppDelegate.swift */; };
 		8B45656B281AACE700E5BB8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B45656A281AACE700E5BB8B /* SceneDelegate.swift */; };
-		8B45656D281AACE700E5BB8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B45656C281AACE700E5BB8B /* ViewController.swift */; };
+		8B45656D281AACE700E5BB8B /* PetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B45656C281AACE700E5BB8B /* PetsViewController.swift */; };
 		8B456570281AACE700E5BB8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B45656E281AACE700E5BB8B /* Main.storyboard */; };
 		8B456572281AACE800E5BB8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B456571281AACE800E5BB8B /* Assets.xcassets */; };
 		8B456575281AACE800E5BB8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B456573281AACE800E5BB8B /* LaunchScreen.storyboard */; };
 		8B456580281AACE800E5BB8B /* SearchDogsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B45657F281AACE800E5BB8B /* SearchDogsTests.swift */; };
 		8B45658A281AACE800E5BB8B /* SearchDogsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B456589281AACE800E5BB8B /* SearchDogsUITests.swift */; };
 		8B45658C281AACE800E5BB8B /* SearchDogsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B45658B281AACE800E5BB8B /* SearchDogsUITestsLaunchTests.swift */; };
+		8B45659B281AB38D00E5BB8B /* PetDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B45659A281AB38D00E5BB8B /* PetDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		8B456565281AACE700E5BB8B /* SearchDogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchDogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B456568281AACE700E5BB8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B45656A281AACE700E5BB8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8B45656C281AACE700E5BB8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B45656C281AACE700E5BB8B /* PetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsViewController.swift; sourceTree = "<group>"; };
 		8B45656F281AACE700E5BB8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B456571281AACE800E5BB8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B456574281AACE800E5BB8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		8B456585281AACE800E5BB8B /* SearchDogsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchDogsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B456589281AACE800E5BB8B /* SearchDogsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDogsUITests.swift; sourceTree = "<group>"; };
 		8B45658B281AACE800E5BB8B /* SearchDogsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDogsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B45659A281AB38D00E5BB8B /* PetDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +101,10 @@
 		8B456567281AACE700E5BB8B /* SearchDogs */ = {
 			isa = PBXGroup;
 			children = (
+				8B456598281AAD3700E5BB8B /* View */,
 				8B456568281AACE700E5BB8B /* AppDelegate.swift */,
 				8B45656A281AACE700E5BB8B /* SceneDelegate.swift */,
-				8B45656C281AACE700E5BB8B /* ViewController.swift */,
-				8B45656E281AACE700E5BB8B /* Main.storyboard */,
 				8B456571281AACE800E5BB8B /* Assets.xcassets */,
-				8B456573281AACE800E5BB8B /* LaunchScreen.storyboard */,
 				8B456576281AACE800E5BB8B /* Info.plist */,
 			);
 			path = SearchDogs;
@@ -125,6 +125,25 @@
 				8B45658B281AACE800E5BB8B /* SearchDogsUITestsLaunchTests.swift */,
 			);
 			path = SearchDogsUITests;
+			sourceTree = "<group>";
+		};
+		8B456598281AAD3700E5BB8B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B456599281AAD4000E5BB8B /* StoryBoard */,
+				8B45656C281AACE700E5BB8B /* PetsViewController.swift */,
+				8B45659A281AB38D00E5BB8B /* PetDetailsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8B456599281AAD4000E5BB8B /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				8B45656E281AACE700E5BB8B /* Main.storyboard */,
+				8B456573281AACE800E5BB8B /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +277,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B45656D281AACE700E5BB8B /* ViewController.swift in Sources */,
+				8B45656D281AACE700E5BB8B /* PetsViewController.swift in Sources */,
 				8B456569281AACE700E5BB8B /* AppDelegate.swift in Sources */,
 				8B45656B281AACE700E5BB8B /* SceneDelegate.swift in Sources */,
+				8B45659B281AB38D00E5BB8B /* PetDetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
