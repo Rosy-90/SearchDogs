@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class PetsViewCell: UICollectionViewCell {
     
@@ -18,5 +19,6 @@ class PetsViewCell: UICollectionViewCell {
     }
     func setPetImage(imageName:String) {
         let url = URL(string: imageName)
+        petImageView.kf.setImage(with: url)
     }
 }
