@@ -2,6 +2,7 @@
 
 - Use XCode 12.2 or above version. 
 - Used Swift 5.x
+- Used KingFisher through cocoapods
 # approaches
 
 - Using MVVM-C (Model View View Model Coordinator Architecture)
