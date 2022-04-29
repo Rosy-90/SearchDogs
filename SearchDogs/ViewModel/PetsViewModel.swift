@@ -10,7 +10,7 @@ import Foundation
 protocol PetsViewModelProtocol {
     var itemCount: Int {get}
     func searchPetInfo(for keyword: String)
-    func getBreadNameAndImageId(for row: Int) -> (imageName: String, breadName: String)
+    func getBreedNameAndImageId(for row: Int) -> (imageName: String, breadName: String)
     func getPetDetails(for row: Int) -> (breadName: String,
                                          height: String,
                                          weight: String,
@@ -46,22 +46,22 @@ extension PetsViewModel: PetsViewModelProtocol {
                 case .success(let result):
                     self?.petsInfo = result
                     DispatchQueue.main.async {
-                        self?.delegate.updateUI()
+                        self?.delegate?.updateUI()
                     }
                 case .failure(_):
                     self?.petsInfo = nil
                     DispatchQueue.main.async {
-                        self?.delegate.showError()
+                        self?.delegate?.showError()
                     }
                 }
             }
         } else {
             petsInfo = nil
-            delegate.updateUI()
+            delegate?.updateUI()
         }
     }
     
-    func getBreadNameAndImageId(for row: Int) -> (imageName: String, breadName: String) {
+    func getBreedNameAndImageId(for row: Int) -> (imageName: String, breadName: String) {
         guard itemCount > row, row >= 0,  let petInfo = petsInfo?[row] else {
             return ("", "")
         }
@@ -75,6 +75,4 @@ extension PetsViewModel: PetsViewModelProtocol {
         }
         return (petInfo.name, "\(petInfo.height.imperial) - \(petInfo.height.metric)", "\(petInfo.weight.imperial) - \(petInfo.weight.metric)", petInfo.lifeSpan, petInfo.temperament ?? "" )
     }
-    
-    
 }

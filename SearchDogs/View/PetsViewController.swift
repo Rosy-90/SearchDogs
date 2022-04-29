@@ -56,7 +56,6 @@ class PetsViewController: UIViewController, Storyboarded {
         super.viewDidLayoutSubviews()
        self.collectionView.collectionViewLayout = flowLayout
     }
-
 }
 
 extension PetsViewController: UICollectionViewDataSource {
@@ -69,11 +68,10 @@ extension PetsViewController: UICollectionViewDataSource {
             return UICollectionViewCell()
         }
         
-        let petDetails = viewModel.getBreadNameAndImageId(for: indexPath.row)
+        let petDetails = viewModel.getBreedNameAndImageId(for: indexPath.row)
         cell.setData(petDetails: petDetails)
         return cell
     }
-    
 }
 
 extension PetsViewController: UICollectionViewDelegateFlowLayout {

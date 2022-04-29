@@ -14,6 +14,7 @@ protocol PetDetailsViewModelProtocal {
     var lifeSpan: String {get}
     var temperament: String {get}
 }
+
 class PetDetailsViewModel: PetDetailsViewModelProtocal {
     var height: String
     var weight: String
