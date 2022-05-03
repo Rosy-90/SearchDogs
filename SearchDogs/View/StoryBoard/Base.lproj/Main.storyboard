@@ -199,7 +199,6 @@
                                             </label>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="60" id="kdz-19-5Co"/>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="zfh-A6-8Lo"/>
                                         </constraints>
                                     </stackView>
@@ -214,7 +213,6 @@
                         <viewLayoutGuide key="safeArea" id="s0r-gt-1P9"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="s0r-gt-1P9" firstAttribute="bottom" secondItem="5nk-IY-sYY" secondAttribute="bottom" constant="5" id="3iY-ki-4j6"/>
                             <constraint firstItem="5nk-IY-sYY" firstAttribute="top" secondItem="s0r-gt-1P9" secondAttribute="top" constant="5" id="NnE-3e-Mxf"/>
                             <constraint firstItem="5nk-IY-sYY" firstAttribute="leading" secondItem="s0r-gt-1P9" secondAttribute="leading" constant="5" id="hqQ-tv-kQJ"/>
                             <constraint firstItem="s0r-gt-1P9" firstAttribute="trailing" secondItem="5nk-IY-sYY" secondAttribute="trailing" constant="5" id="hs3-E0-voG"/>
