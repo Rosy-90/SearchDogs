@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol PetsViewControllerProtocol: class {
+protocol PetsViewControllerProtocol: AnyObject {
     func updateUI()
     func showError()
 }
