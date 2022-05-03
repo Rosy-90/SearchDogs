@@ -58,8 +58,6 @@
 
 /* Begin PBXFileReference section */
 		34AF37655A1A2BCBEDD3FF2A /* Pods_SearchDogs_SearchDogsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchDogs_SearchDogsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		63524AD507B62EE8BA030DA5 /* Pods-SearchDogsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchDogsTests.release.xcconfig"; path = "Target Support Files/Pods-SearchDogsTests/Pods-SearchDogsTests.release.xcconfig"; sourceTree = "<group>"; };
-		7440BD95445DD013E658E5B9 /* Pods-SearchDogsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchDogsTests.debug.xcconfig"; path = "Target Support Files/Pods-SearchDogsTests/Pods-SearchDogsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8B456565281AACE700E5BB8B /* SearchDogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchDogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B456568281AACE700E5BB8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B45656A281AACE700E5BB8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,12 +90,8 @@
 		8B4565C3281BD18A00E5BB8B /* ItemFailureResponse.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ItemFailureResponse.json; sourceTree = "<group>"; };
 		8B4565C5281BD84100E5BB8B /* PetsDetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsDetailsViewModelTests.swift; sourceTree = "<group>"; };
 		8B4565C9281BDC0400E5BB8B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		9CDF9CE8C1ED1535C019AD98 /* Pods-SearchDogs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchDogs.debug.xcconfig"; path = "Target Support Files/Pods-SearchDogs/Pods-SearchDogs.debug.xcconfig"; sourceTree = "<group>"; };
 		9F973988A92D0C270960CBBA /* Pods_SearchDogs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchDogs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB774251163B1AA2689AD5D4 /* Pods_SearchDogsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SearchDogsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C488CABD0D18C825ACC77FAC /* Pods-SearchDogs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchDogs.release.xcconfig"; path = "Target Support Files/Pods-SearchDogs/Pods-SearchDogs.release.xcconfig"; sourceTree = "<group>"; };
-		EB1407D22BF9B0A1E23C48E7 /* Pods-SearchDogs-SearchDogsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchDogs-SearchDogsUITests.release.xcconfig"; path = "Target Support Files/Pods-SearchDogs-SearchDogsUITests/Pods-SearchDogs-SearchDogsUITests.release.xcconfig"; sourceTree = "<group>"; };
-		EC24CEAA523BA4E1C81387BA /* Pods-SearchDogs-SearchDogsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SearchDogs-SearchDogsUITests.debug.xcconfig"; path = "Target Support Files/Pods-SearchDogs-SearchDogsUITests/Pods-SearchDogs-SearchDogsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,7 +129,6 @@
 				8B45657E281AACE800E5BB8B /* SearchDogsTests */,
 				8B456588281AACE800E5BB8B /* SearchDogsUITests */,
 				8B456566281AACE700E5BB8B /* Products */,
-				9A4BCF7E7F6E182004AF17F6 /* Pods */,
 				DB6D4BE5B0E74822DA23119B /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -269,19 +262,6 @@
 				8B4565C3281BD18A00E5BB8B /* ItemFailureResponse.json */,
 			);
 			path = SampleResponse;
-			sourceTree = "<group>";
-		};
-		9A4BCF7E7F6E182004AF17F6 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9CDF9CE8C1ED1535C019AD98 /* Pods-SearchDogs.debug.xcconfig */,
-				C488CABD0D18C825ACC77FAC /* Pods-SearchDogs.release.xcconfig */,
-				EC24CEAA523BA4E1C81387BA /* Pods-SearchDogs-SearchDogsUITests.debug.xcconfig */,
-				EB1407D22BF9B0A1E23C48E7 /* Pods-SearchDogs-SearchDogsUITests.release.xcconfig */,
-				7440BD95445DD013E658E5B9 /* Pods-SearchDogsTests.debug.xcconfig */,
-				63524AD507B62EE8BA030DA5 /* Pods-SearchDogsTests.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		DB6D4BE5B0E74822DA23119B /* Frameworks */ = {
@@ -693,7 +673,6 @@
 		};
 		8B456590281AACE800E5BB8B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CDF9CE8C1ED1535C019AD98 /* Pods-SearchDogs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -722,7 +701,6 @@
 		};
 		8B456591281AACE800E5BB8B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C488CABD0D18C825ACC77FAC /* Pods-SearchDogs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -751,7 +729,6 @@
 		};
 		8B456593281AACE800E5BB8B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7440BD95445DD013E658E5B9 /* Pods-SearchDogsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -772,7 +749,6 @@
 		};
 		8B456594281AACE800E5BB8B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63524AD507B62EE8BA030DA5 /* Pods-SearchDogsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -793,7 +769,6 @@
 		};
 		8B456596281AACE800E5BB8B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC24CEAA523BA4E1C81387BA /* Pods-SearchDogs-SearchDogsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -812,7 +787,6 @@
 		};
 		8B456597281AACE800E5BB8B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB1407D22BF9B0A1E23C48E7 /* Pods-SearchDogs-SearchDogsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
