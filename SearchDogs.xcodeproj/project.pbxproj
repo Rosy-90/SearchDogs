@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F6348683DA7DFCD2247E7C4 /* Pods_SearchDogs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F973988A92D0C270960CBBA /* Pods_SearchDogs.framework */; };
 		8296A9C1B3BD73B383566CA7 /* Pods_SearchDogs_SearchDogsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34AF37655A1A2BCBEDD3FF2A /* Pods_SearchDogs_SearchDogsUITests.framework */; };
 		8B456569281AACE700E5BB8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B456568281AACE700E5BB8B /* AppDelegate.swift */; };
 		8B45656B281AACE700E5BB8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B45656A281AACE700E5BB8B /* SceneDelegate.swift */; };
@@ -106,7 +105,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F6348683DA7DFCD2247E7C4 /* Pods_SearchDogs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +305,6 @@
 				8B456561281AACE700E5BB8B /* Sources */,
 				8B456562281AACE700E5BB8B /* Frameworks */,
 				8B456563281AACE700E5BB8B /* Resources */,
-				178137F2DF44FD52387EE768 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -345,7 +342,6 @@
 				8B456581281AACE800E5BB8B /* Sources */,
 				8B456582281AACE800E5BB8B /* Frameworks */,
 				8B456583281AACE800E5BB8B /* Resources */,
-				BF5AF1313D895632B1AE828E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -431,23 +427,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		178137F2DF44FD52387EE768 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SearchDogs/Pods-SearchDogs-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SearchDogs/Pods-SearchDogs-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SearchDogs/Pods-SearchDogs-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5BE4079050A463AC973EEA24 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -467,7 +446,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "
+";
 			showEnvVarsInLog = 0;
 		};
 		62CE3F9D25E85C79B527921E /* [CP] Check Pods Manifest.lock */ = {
@@ -490,23 +470,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BF5AF1313D895632B1AE828E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SearchDogs-SearchDogsUITests/Pods-SearchDogs-SearchDogsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SearchDogs-SearchDogsUITests/Pods-SearchDogs-SearchDogsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SearchDogs-SearchDogsUITests/Pods-SearchDogs-SearchDogsUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F2D827377251D6D432DC7194 /* [CP] Check Pods Manifest.lock */ = {
